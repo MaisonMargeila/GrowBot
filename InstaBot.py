@@ -281,9 +281,9 @@ class instabot():
         self.driver.close()
 
 def telegram_bot_sendtext(bot_message):
-    bot_token = "1103285048:AAHl7Rk7ps_IBaNbkge5XIjXwKub3zb9xZ4"
+    bot_token = ""
     bot_chatID = "-411328054"
-    #message="Deepa"
+    
     url="https://api.telegram.org/bot"+bot_token+"/sendMessage?chat_id="+bot_chatID+"&text="+bot_message
     requests.get(url)
 
