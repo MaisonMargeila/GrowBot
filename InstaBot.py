@@ -338,7 +338,7 @@ for _ in range(4):
     sleep(300)
 
     for _ in range(5):
-        bot.comment_popular_feeds()  # 5 comments
+        bot.comment_popular_feeds()  # 5 comment
     sleep(60)
 
     bot.like_feeds()  # 30 Likes
